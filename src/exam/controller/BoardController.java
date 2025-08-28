@@ -5,4 +5,7 @@ public class BoardController {
 		System.out.println("로컬에서 수정함");
 	}
 	
+    public void insert() {
+		  System.out.println("서버에서 수정함");
+    }
 }
