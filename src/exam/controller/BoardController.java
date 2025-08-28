@@ -8,8 +8,12 @@ public class BoardController {
     public void insert() {
 		  System.out.println("서버에서 수정함");
     }
-	
+
+	public void update() {
+		System.out.println("로컬에서 update입니다.~");
+	}
+
 	public void delete() {
 	  System.out.println("서버에서 delete");
-    }
+	}
 }
